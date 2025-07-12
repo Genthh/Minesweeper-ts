@@ -20,7 +20,7 @@ minesweeper-ts/
 ### 1. Clone and install dependencies
 
 ```bash
-git clone <repo-url>
+git clone https://github.com/Genthh/Minesweeper-ts
 cd minesweeper-ts
 ```
 
@@ -40,7 +40,7 @@ The backend should now be running on http://localhost:3001
 Make sure you have a PostgreSQL database running and your `.env` file includes:
 
 ```
-DATABASE_URL=postgresql://your-user:your-password@localhost:5432/minesweeper
+DATABASE_URL="postgresql://postgres:postgres@localhost:5432/minesweeper"
 ```
 
 ### 3. Setup Frontend
