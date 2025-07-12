@@ -1,0 +1,84 @@
+/* Game.module.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background: #e8e8eb;
+  min-height: 100vh;
+  color: #333;
+}
+
+.controls {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 1.2rem;
+  align-items: center;
+}
+.timer{
+  width: 200px;
+  margin-top: 15px;
+}
+.restartButton {
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  background-color: transparent;
+  border: 1px solid #343cdc;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.board {
+  margin-top: 30px;
+  display: inline-block;
+  background-color: #641515;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  cursor: pointer;
+  user-select: none;
+  background-color: #e0e0e0;
+  transition: background-color 0.15s ease-in-out;
+}
+
+.cell:hover {
+  background-color: #d0d0d0;
+}
+
+.revealed {
+  background-color: #f9f9f9;
+  color: #222;
+  cursor: default;
+}
+
+.mine {
+  background-color: #f44336;
+  color: white;
+}
+
+.flagged {
+  background-color: #ffc107;
+  color: black;
+}
+
+.modalContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
