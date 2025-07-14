@@ -71,7 +71,6 @@ The frontend should now be accessible at http://localhost:5173
 - React
 - TypeScript
 - Vite
-- Tailwind CSS
 
 ### Backend:
 - Express.js
