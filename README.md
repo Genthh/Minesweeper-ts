@@ -125,7 +125,7 @@ Submits a new score.
 
 ### Backend
 
-- `npm run dev` – Start backend in dev mode using ts-node
+- `npx ts-node src/index.ts` – Start backend in dev mode using ts-node
 
 ---
 
