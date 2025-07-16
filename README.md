@@ -32,7 +32,7 @@ cp .env.example .env  # Make sure DATABASE_URL is set
 npm install
 npx prisma generate
 npx prisma migrate dev  # Sets up the database
-npm run dev
+npx ts-node src/index.ts
 ```
 
 The backend should now be running on http://localhost:3001
